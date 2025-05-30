@@ -1,7 +1,7 @@
-# YOLO 스마트 쓰레기 분류기
+# YOLOv5 쓰레기 분류 Streamlit 앱
 
-Streamlit + YOLOv8을 이용한 이미지 기반 쓰레기 분류기입니다.
+YOLOv5를 사용하여 업로드된 이미지에서 쓰레기 객체를 감지하는 Streamlit 앱입니다.
 
-## 사용법
-1. 이미지를 업로드하면 YOLOv8로 객체를 감지합니다.
-2. 결과 이미지와 라벨을 웹에서 확인할 수 있습니다.
+## 실행 방법
+```bash
+streamlit run app.py
