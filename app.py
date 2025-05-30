@@ -1,3 +1,9 @@
+try:
+    import cv2
+except ImportError:
+    import subprocess
+    subprocess.run(["pip", "install", "opencv-python-headless"])
+    import cv2
 import streamlit as st
 from ultralytics import YOLO
 import cv2
